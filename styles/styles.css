@@ -1,6 +1,7 @@
 html,
 body {
   background-color: #30734C;
+  height: 50vh;
 }
 
 
@@ -20,22 +21,34 @@ body {
   text-align: left;
 }
 
+.header img {
+  margin-top: -3%;
+}
+
+
 #quiz {
-  background: #e3f6f5;
+  background: #7AA08B;
   padding: 1%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: auto;
   text-align: center;
   border-radius: 8%;
+  border-color: black;
+  border-style: solid;
 }
 
 .aside-1 {
   background-color: #30734C;
   text-align: center;
+  margin-right: 10%;
 }
 
 
 .aside-2 {
   background-color: #30734C;
   text-align: center;
+  margin-left: 10%;
 }
 
 
@@ -84,7 +97,7 @@ h1 {
   color: #30734C;
   border-radius: .3rem;
   padding: 10px 20px;
-  margin: 10px 40px 10px 0px;
+  margin: 10px 40px 10px 25px;
 }
 
 #progress {
