@@ -33,7 +33,7 @@ export class UI {
         <h1>Result</h1>
         <h2 id="score">Your scores: ${score}</h2>
         `;
-      // <h2 id="score">Your scores: ${quiz.score}</h2>
+      // <h2 id="score">Your score is: ${quiz.score}</h2>
   
       const element = document.getElementById("quiz");
       element.innerHTML = gameOverHTML;
