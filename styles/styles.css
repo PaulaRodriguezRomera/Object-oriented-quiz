@@ -44,7 +44,6 @@ body {
   text-align: left;
 }
 
-
 @media all and (min-width:600px) {
   .aside {flex: 1 0 0;}
   
@@ -80,7 +79,7 @@ h1 {
 .button {
   background-color: #D8DBD9;
   border-color: #30734C;
-  width: 180px;
+  width: 250px;
   font-size: 20px;
   color: #30734C;
   border-radius: .3rem;
