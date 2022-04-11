@@ -53,4 +53,10 @@ export const data = [
     choices: ['Tiramisu', 'Creme Brulee', 'Apple Pie'],
     answer: 'Creme Brulee',
 },
+
+{
+    question: 'This is a traditional Scottish pudding, similar to a trifle. It is layered dessert, consisting of whipped cream, toasted oats, and juicy raspberries. Of course, it would not be scottish without a touch of whiskey in the mix!',
+    choices: ['Scones', 'Cranachan', 'Shortbread'],
+    answer: 'Cranachan',
+},
 ]; 
