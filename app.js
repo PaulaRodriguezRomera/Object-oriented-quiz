@@ -9,6 +9,7 @@ const renderPage = (quiz, ui) => {
     ui.showScores(quiz.score);
   } else {
     console.log(quiz);
+    
     ui.showQuestion(quiz.getQuestionIndex().text);
     ui.showProgress(quiz.questionIndex + 1, quiz.questions.length);
     ui.showChoices(quiz.getQuestionIndex().choices, (currenChoice) => {
