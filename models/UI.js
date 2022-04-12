@@ -1,17 +1,6 @@
 export class UI {
     constructor() {}
-
-
-    /**
-     * 
-     * @param {image} image 
-     */
-    showImage(image) {
-      const questionImage = document.getElementById("image"); 
-      questionImage.innerHTML = image; 
-    }
-
-    /**
+   /**
      *
      * @param {sting} text
      */
